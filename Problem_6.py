@@ -7,3 +7,6 @@
 # Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
 
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+def sumOfSquares(n):
+    return sum([i for i in range(n+1)])**2 - sum([i**2 for i in range(n+1)])
