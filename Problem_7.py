@@ -2,12 +2,17 @@
 
 # What is the 10 001st prime number?
 
-
-#Just printing prime numbers part
-for n in range(10001):
+primeList = []
+for n in range(1000):
     prime = True
+    n = n + 1
     for i in range(2, n):
         if (n % i == 0):
             prime = False
     if prime:
-        print n
+        primeList.append(n)
+
+# printing the length of the list to determine how close I am the to 10 001st
+# print len(primeList)
+# currently at 1230
+print primeList[10001]
