@@ -3,7 +3,7 @@
 # What is the 10 001st prime number?
 
 primeList = []
-for n in range(1000):
+for n in range(22000000):
     prime = True
     n = n + 1
     for i in range(2, n):
