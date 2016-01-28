@@ -14,5 +14,4 @@ for n in range(22000000):
 
 # printing the length of the list to determine how close I am the to 10 001st
 # print len(primeList)
-# currently at 1230
 print primeList[10001]
